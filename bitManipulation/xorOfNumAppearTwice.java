@@ -1,4 +1,4 @@
-public class duplicateXOR {
+public class xorOfNumAppearTwice {
     public static int duplicateNumbersXOR(int[] nums) {
         int[] freq = new int[51]; // because nums[i] <= 50
 
