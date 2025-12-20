@@ -29,7 +29,6 @@ public class theCelebrityProblem {
             if (mat[c][i] != 0 || mat[i][c] == 0)
                 return -1;
         }
-    
         return c;
     }
     
