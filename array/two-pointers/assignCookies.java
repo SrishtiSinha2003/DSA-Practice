@@ -13,7 +13,7 @@ public class assignCookies {
             count++;
             j++;
         }
-        return count++;
+        return count;
     }
     public static void main(String[] args) {
         int[] g = {1,2,3};
