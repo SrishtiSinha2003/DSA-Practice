@@ -17,7 +17,7 @@ Problems are organized **topic-wise and pattern-wise**, with each folder contain
 
 > 🔹 Each **topic or pattern** has its own folder  
 > 🔹 Problems are categorized by **difficulty levels**  
-> 🔹 All solutions are implemented in **Java**
+> 🔹 All solutions are implementted in **Java**
 
 ---
 
