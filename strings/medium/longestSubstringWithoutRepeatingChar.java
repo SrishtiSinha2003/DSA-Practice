@@ -5,7 +5,7 @@ public class longestSubstringWithoutRepeatingChar {
         HashMap<Character, Integer> map = new HashMap<>();
         int maxLength = 0;
         int start = 0;
-        for(int end =0; end <s.length(); end++) {
+        for(int end = 0; end <s.length(); end++) {
             char c = s.charAt(end);
             if(map.containsKey(c)) {
                 start = Math.max(start, map.get(c) + 1);
