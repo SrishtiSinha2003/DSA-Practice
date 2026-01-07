@@ -1,4 +1,3 @@
-package strings.hard;
 public class longestRepeatingCharReplace {
     public static int charReplace(String s, int k) {
         int[] count = new int[26];
