@@ -18,7 +18,7 @@ public class longestRepeatingCharReplace {
         return result;
     }
     public static void main(String[] args) {
-        String s = "ABAB";
+        String s = "ABB";
         int k = 2;
         System.out.println(charReplace(s, k));
     }
