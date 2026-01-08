@@ -8,7 +8,9 @@ public class groupAnagrams {
             Arrays.sort(arr);                 // create signature
             String key = new String(arr);
 
-            map.putIfAbsent(key, new ArrayList<>());
+            if(!map.containsKey(key)) {
+                map.put(key, new ArrayList<>());
+            }
             map.get(key).add(s);
         }
 
