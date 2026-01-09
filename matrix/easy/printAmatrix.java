@@ -1,4 +1,3 @@
-package easy;
 public class printAmatrix {
     public static void print2D(int mat[][])
     {
