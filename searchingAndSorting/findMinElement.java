@@ -3,7 +3,7 @@ public class findMinElement {
         int low = 0;
         int high = arr.length-1;
 
-        if(arr[low] <= arr[high]) {
+        if(arr[low] <= arr[high]) { // arr is already sorted
             return arr[low];
         }
 
