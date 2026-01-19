@@ -71,7 +71,7 @@ public class mergeTwoArrays {
         int[] merged = merge(a, b);
         
         for(int x : merged){
-            System.out.println(x + " ");
+        System.out.println(x + " ");
         }
     }
 
