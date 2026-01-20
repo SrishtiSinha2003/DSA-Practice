@@ -35,8 +35,9 @@ public class insertFront {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.insert(3);
-        System.out.println(list.getHeadValue());
+        // System.out.println(list.getHeadValue());
         list.insert(2);
-        System.out.println(list.getHeadValue());
+        // System.out.println(list.getHeadValue());
+        list.printList();
     }
 }
