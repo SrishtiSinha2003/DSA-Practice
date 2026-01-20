@@ -9,7 +9,7 @@ public class insertFront {
         }
     }
     static class LinkedList {
-        public Node head;
+        Node head;
             public void insert(int value) {
             System.out.println("Inserting " + value);
             Node newNode = new Node(value);
@@ -22,6 +22,14 @@ public class insertFront {
             } else {
                 return head.value;
             }
+        }
+    public void printList() {
+        Node temp = head;
+        while (temp != null) {
+            System.out.print(temp.value + " -> ");
+            temp = temp.next;
+        }
+            System.out.println("null");
         }
     }
     public static void main(String[] args) {
