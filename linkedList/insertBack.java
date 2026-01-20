@@ -40,3 +40,30 @@ public class insertBack {
         list.printList();
     }
 }
+/*
+If k is zero, it means you want to insert the new node at the beginning of the list, 
+effectively making it the new head. 
+
+void insertAfterK(int value, int k) {
+    Node newNode = new Node(value);
+    if (k == 0) {
+        newNode.next = head;
+        head = newNode;
+        return;
+    }
+    Node current = head;
+    if (current == null) {
+        head = newNode;
+        return;
+    }
+    for (int i = 1; i < k; i++) {
+        if(current == null){
+            break;
+        }
+        current = current.next;
+    }
+    if(current != null){
+        newNode.next = current.next;
+        current.next = newNode;
+    }
+} */
