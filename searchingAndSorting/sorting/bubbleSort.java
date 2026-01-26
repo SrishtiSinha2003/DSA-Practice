@@ -13,7 +13,7 @@ public class bubbleSort {
                 }
             }
             if (swapped == false)
-                break;
+            break;
         }
     }
     public static void main(String[] args) {
