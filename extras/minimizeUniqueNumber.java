@@ -6,7 +6,7 @@ public class minimizeUniqueNumber {
         for(int i=0; i<arr.length; i++) {
             map.put(arr[i], map.getOrDefault(arr[i], 0)+1);
         }
-        List<Integer> arrayList = new ArrayList<>(map.values());
+        List<Integer> arrayList = new ArrayList<>(map.values());  // we have made arraylist because we dont know the size of array 
         Collections.sort(arrayList);
         int count = arrayList.size();
         for(int num : arrayList) {
