@@ -14,7 +14,7 @@ public class firstNonRepeatingChar {
         return '$';
     }
     public static void main(String[] args) {
-        String s = "geeksforgeeks";
+        String s = "geeksforgeeksfor";
         System.out.println(character(s));
     }
 }
