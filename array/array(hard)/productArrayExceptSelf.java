@@ -1,15 +1,11 @@
 import java.util.Arrays;
-
 public class productArrayExceptSelf {
     public static int[] product(int[] arr) {
-        
         // count the number of zeros with the idx at which it is present
         // initially zeros are 0
         // and prod is 1
-
         int prod = 1, zeros = 0, idx = -1;
         int n = arr.length;
-
        // count the zeros and keep the track of index of the zero 
        for(int i=0; i<arr.length; i++) {
         if(arr[i] == 0) {
@@ -21,7 +17,6 @@ public class productArrayExceptSelf {
     }
     int[] res = new int[n];
     Arrays.fill(res, 0);
-    
      // If no zeros, calculate the product for all elements
         if (zeros == 0) {
             for (int i = 0; i < n; i++) 
