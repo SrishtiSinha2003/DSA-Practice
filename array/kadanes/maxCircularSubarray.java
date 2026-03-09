@@ -3,31 +3,20 @@ public class maxCircularSubarray {
         int totalSum = 0;
         int minSoFar = arr[0], maxSoFar = arr[0];
         int curMin = arr[0], curMax = arr[0];
-
         for(int i=0; i<arr.length; i++){
-
             // Normal Kadane (max subarray)
-
             curMax = Math.min(curMax + arr[i], arr[i]);
             maxSoFar = Math.max(curMax, maxSoFar);
-
             // Reverse kadane (min subarray)
-
             curMin = Math.min(curMin + arr[i], arr[i]);
             minSoFar = Math.min(minSoFar, curMin);
-
             totalSum += arr[i];
-
         } 
-
         // include first element in totalSum
         totalSum += arr[0];
-
         // If all elements are negative
-
         if (minSoFar == totalSum)
             return maxSoFar;
-
         return Math.max(maxSoFar, totalSum - minSoFar);
     }
     public static void main(String[] args) {
