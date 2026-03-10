@@ -1,5 +1,4 @@
 import java.util.Stack;
-
 public class subarrayWithFirstElementMinimum {
     public static int find(int[] arr) {
         int ans = 0;
