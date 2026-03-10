@@ -1,5 +1,4 @@
 import java.util.HashMap;
-
 public class longestSubstringWithoutRepeatingChar {
     public static int longest(String s) {
         HashMap<Character, Integer> map = new HashMap<>();
