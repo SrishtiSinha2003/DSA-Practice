@@ -9,8 +9,8 @@ public class validAnagram{
         return Arrays.equals(sArray, tArray);
     }
     public static void main(String[] args) {
-       String s = "geeks";
-       String t = "kseeg";
+       String s = "stop";
+       String t = "post";
        System.out.println(valid(s, t));
     }
 }
