@@ -1,5 +1,4 @@
 import java.util.*;
-
 public class spiralMatrix {
     public static List<Integer> spiral(int[][] mat) {
         List<Integer> result = new ArrayList<>();
