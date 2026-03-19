@@ -14,10 +14,8 @@ public class rankingBooks {
                 low = mid + 1;
             }
         }
-
         return low + 1;
     }
-
     public static void main(String[] args) {
         int[] pages = {100, 100, 50, 40, 40, 20, 10};
         int[] pagesAtEnd = {5, 25, 50, 120};
